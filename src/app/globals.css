@@ -76,3 +76,12 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.text-gradient {
+  background: linear-gradient(to right, var(--tw-gradient-stops));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  background-size: 100%;
+}
