@@ -1,10 +1,11 @@
 import Header from "./_components/Header";
-
+import HeroSection from "./_components/HeroSection";
 export default function Home() {
   return (
     <main className="">
-      <div className="mx-auto w-11/12">
+      <div className="mx-auto w-full">
         <Header />
+        <HeroSection />
       </div>
     </main>
   );

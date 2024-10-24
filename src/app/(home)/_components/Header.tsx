@@ -60,7 +60,7 @@ const MobileNavbar = () => {
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center py-12 mt-11 md:mt-0">
+    <header className="flex justify-between items-center py-12 mt-11 md:mt-0 w-11/12 mx-auto">
       <Image src="/images/logo.svg" width={100} height={100} alt="logo" />
       <div className="flex items-center gap-16">
         <nav className="hidden md:flex items-center gap-x-20 ">
