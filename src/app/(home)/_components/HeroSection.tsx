@@ -4,7 +4,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section className="w-full">
-      <div className="relative w-full h-[934px] md:h-auto">
+      <div className="relative w-full h-auto">
         <Image
           src="/images/hero-image.svg"
           alt="logo"
